@@ -71,6 +71,8 @@ x.avg <- apply(mdata,1,mean)
 densityplot(x.avg,main="sample size 2")
 ```
 
+Only 1 peak so there can't be a comparison in size.
+
 finally for 36 random samples.
 
 ```{r}
