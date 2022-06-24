@@ -1,7 +1,7 @@
 ---
 title: "theCLE"
 author: "Ruben Murillo Villa"
-date: '2022-03-28'
+date: 'Summer 2022'
 output: html_document
 ---
 ```{r setup, include=FALSE}
@@ -21,6 +21,8 @@ densityplot(my1000,main="original data")
 
 Describe the resulting plot -  is it unimodal?  How many peaks does it have?  Are all the peaks the same size? 
 
+No it's not unimodal. It's bimodal. There are two peaks. Both peaks are the same size. There are 0 outliers in the plot.
+
 Now take 2 random samples of 1000 points of the kkardashtemp variable and form 1000 points of their averages,
 
 ```{r}
@@ -33,7 +35,7 @@ densityplot(x.avg,main="sample size 2")
 
 Describe the resulting plot -  is it unimodal?  How many peaks does it have?  Are all the peaks the same size? 
 
- 
+
 
 Do this again for 4 random samples
 
