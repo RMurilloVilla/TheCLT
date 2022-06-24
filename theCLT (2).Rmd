@@ -59,7 +59,7 @@ x.avg <- apply(mdata,1,mean)
 densityplot(x.avg,main="sample size 2")
 ```
 
-
+This is unimodal. Sense there is 1 distinctive peak. It reaches about .029. There is 3 minor peaks. All 4 peaks have different values, none of them are the same size.
 
 then 16 random samples
 
